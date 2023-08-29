@@ -55,12 +55,12 @@ function Start(){
             <div className="flex items-center mt-8">
                 <div className="flex flex-col items-center">
                     <h1 className="comp text-xl">Computer</h1>
-                    <img src={`../public/images/${computerChoice}`} alt="" className="object-cover w-96 mt-4"/>
+                    <img src={`/images/${computerChoice}`} alt="" className="object-cover w-96 mt-4"/>
                 </div>
                 <h1 className="font-extrabold text-3xl mt-16">VS</h1>
                 <div className="flex flex-col items-center">
                     <h1 className="comp text-xl">You</h1>
-                    <img src={`../public/images/${userChoice}`} alt="" className="w-96 mt-4"/>
+                    <img src={`/images/${userChoice}`} alt="" className="w-96 mt-4"/>
                 </div>
                
             </div>
@@ -76,7 +76,7 @@ function Start(){
                                     handleClick(choice)
                                 }
                                 } type="button" className="bg-purp rounded-full w-20 h-20 mr-8">
-                                <img src={`../public/images/${choice}`} alt="" />
+                                <img src={`/images/${choice}`} alt="" />
                             </button>
                         )
                     }
